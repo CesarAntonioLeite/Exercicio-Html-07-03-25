@@ -68,6 +68,84 @@
             <label for="NascimentoP">Data de Nascimento</label>
             <input type="date" name="NascimentoP" id="NascimentoP">
         </p>
+        <p>
+            <label for="NaturalidadeP">Naturalidade</label>
+            <input type="text" name="Naturalidade" id="Naturalidade" placeholder="Digite a nacionalidade">
+        </p>
+        <p>
+            <label for="InstrucaoP">Instrução</label>
+            <input type="text" name="InstrucaoP" id="InstrucaoP">
+            <label for="profissaoP">Profissão</label>
+            <input type="text" name="ProfissaoP" id="ProfissaoP">
+        </p>
+        <p>
+            <label for="celularP">Celular</label>
+            <input type="number" name="celularP" id="CelularP" placeholder="Digite o numero celular" required>
+            <label for="emailP">Email</label>
+            <input type="email" name="emailP" id="emailP" placeholder="Digite o email" required>
+            <label for="cpfP">cpf</label>
+            <input type="number" name="cpfP" id="cpfP" placeholder="Digite o cpf" required>
+            <label for="responsavel">Responsavel financeiro</label>
+            <select name="responsavelFinP" id="responsavelFinP">
+                <option value="É o responsavel financeiro">É o responsavel financeiro?</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+        </p>
+    </fieldset>
+    <fieldset>
+        <legend>Dados da mãe</legend>
+        <p>
+            <label for="nomeM">Nome</label>
+            <input type="text" name="nomeM" id="nomeM" placeholder="Digite o nome da mãe" required>
+        </p>
+        <p>
+            <label for="NascimentoM">Data de Nascimento</label>
+            <input type="date" name="NascimentoM" id="NascimentoM">
+        </p>
+        <p>
+            <label for="NaturalidadeM">Naturalidade</label>
+            <input type="text" name="NaturalidadeM" id="NaturalidadeM" placeholder="Digite a nacionalidade">
+        </p>
+        <p>
+            <label for="InstrucaoM">Instrução</label>
+            <input type="text" name="InstrucaoM" id="InstrucaoM">
+            <label for="profissaoM">Profissão</label>
+            <input type="text" name="ProfissaoM" id="ProfissaoM">
+        </p>
+        <p>
+            <label for="celularM">Celular</label>
+            <input type="number" name="celularM" id="CelularM" placeholder="Digite o numero celular" required>
+            <label for="emailM">Email</label>
+            <input type="email" name="emailM" id="emailM" placeholder="Digite o email" required>
+            <label for="cpfM">cpf</label>
+            <input type="number" name="cpfM" id="cpfM" placeholder="Digite o cpf" required>
+            <label for="responsavel">Responsavel financeiro</label>
+            <select name="responsavelFinM" id="responsavelFinM">
+                <option value="É o responsavel financeiro">É o responsavel financeiro?</option>
+                <option value="sim">Sim</option>
+                <option value="nao">Não</option>
+            </select>
+        </p>        
+    </fieldset>
+    <fieldset>
+        <legend>Dados do curso</legend>
+        <p>
+            <label for="nome do curso">Nome do curso</label>
+            <select name="nomeC" id="nomeC" required>
+                <option value="Escolha o curso">Escolha o curso</option>
+                <option value="Analise e desenvolvimento de Sistemas"></option>
+                <option value="Psicologia"></option>
+            </select>
+        </p>
+        <p>
+            <label for="data de ingresso">Data de Ingresso</label>
+            <input type="date" name="dataIngresso" id="dataIngresso" required>
+        </p>
+        <p>
+            <label for="valor">Valor</label>
+            <input type="checkbox" name="valor1" id="valor1" value="R$1.230,00">
+        </p>
     </fieldset>
     </form>
 </body>
